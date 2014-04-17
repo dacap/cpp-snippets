@@ -12,4 +12,5 @@ configure_file(${CMAKE_CURRENT_SOURCE_DIR}/cmake/cxx_config.h.cmakein
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
 # Snippets
+add_subdirectory(hello_world)
 add_subdirectory(filesystem)
