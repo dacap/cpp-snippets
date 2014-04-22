@@ -17,3 +17,7 @@ add_subdirectory(cli)
 add_subdirectory(filesystem)
 add_subdirectory(hello_world)
 add_subdirectory(raii)
+
+if(WIN32)
+add_subdirectory(winshell)
+endif()
