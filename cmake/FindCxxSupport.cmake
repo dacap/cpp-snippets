@@ -6,7 +6,7 @@ endif()
 
 check_cxx_source_compiles("
   int main() {
-    static_assert(sizeof(char) == 1);
+    static_assert(sizeof(char) == 1, \"Char is not 1\");
   }
   "
   CXX_HAS_STATIC_ASSERT)
